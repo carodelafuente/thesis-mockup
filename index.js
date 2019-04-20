@@ -11,13 +11,7 @@
     }
   };
 
-  console.log(hamburger.hamburger_menu_container)
-
   hamburger.hamburger_menu_container.addEventListener('click', function(e) {
     hamburger.doToggle(e);
   });
-  // hamburger.nav_links_list.addEventListener('click', function(e) {
-  //   hamburger.doToggle(e);
-  // });
-
 }());
