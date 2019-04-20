@@ -145,11 +145,17 @@ input[type="text"] {
 ::placeholder {
   color: white;
 }
+input:focus {
+  outline: 0;
+}
 
 button {
   background-color: rgb(44, 153, 237);
   border: none;
   height: 30px;
+}
+button:focus {
+  outline: 0;
 }
 
 .sign_up_agreement * {
